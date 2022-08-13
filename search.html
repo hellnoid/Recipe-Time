@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #po{
+            display: flex;
+            gap: 30px;
+        }
+ 
+        img{
+            height: 200px;
+            width: 200px;
+        }
+        #nav{
+            display: flex;
+            justify-content: space-evenly;
+            font-weight: 900;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(247, 182, 103);
+            margin: 0px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        #options{
+            display: flex;
+            gap: 40px;
+           
+        }
+        #search{
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+        }
+        #searchbox{
+            border-radius: 5px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main"></div>
+    <!-- <div id="nav">
+        <div id="spage"><a href="search.html">Search</a></div>
+        <div id="options">
+            <div id="rod"><a href="rod.html">Recipe  of the day</a></div>
+            <div id="random"><a href="random.html">Random</a></div>
+        </div>
+    </div> -->
+    <div id="search"><input id="searchbox"  type="text" placeholder="Search..."/></div>
+    <div id="container"></div>
+</body>
+</html>
+<script src="search.js" type="module"></script>

@@ -1,0 +1,29 @@
+form{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: palegoldenrod;
+   
+}
+
+ label{
+    margin-left: -240px;
+} 
+
+form input{
+
+    width: 300px;
+
+}
+
+
+#otp{
+    position: absolute;
+    background-color: aqua;
+    top: 150px;
+    left: 530px;
+    padding: 30px;
+    display: none;
+}
